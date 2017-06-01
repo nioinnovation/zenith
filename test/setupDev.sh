@@ -32,7 +32,7 @@ pushd ../server
 green 'Unlinking existing server'
 npm unlink
 green 'Linking server'
-npm link @horizon/client
+npm link @nio/zenith-client
 npm link --cache-min 9999999
 popd
 
@@ -40,7 +40,7 @@ pushd ../cli
 green 'Unlinking existing horizon cli'
 npm unlink
 green 'Linking horizon cli'
-npm link @horizon/server
+npm link @nio/zenith-server
 npm link --cache-min 9999999
 popd
 
