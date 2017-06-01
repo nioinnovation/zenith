@@ -27,11 +27,11 @@ def main(version):
 
     with rewrite('./server/package.json') as server_pkg:
         server_pkg['version'] = version
-        server_pkg['dependencies']['@horizon/client'] = version
+        server_pkg['dependencies']['@nio/zenith-client'] = version
 
     with rewrite('./cli/package.json') as cli_pkg:
         cli_pkg['version'] = version
-        cli_pkg['dependencies']['@horizon/server'] = version
+        cli_pkg['dependencies']['@nio/zenith-server'] = version
 
 
 if __name__ == '__main__':

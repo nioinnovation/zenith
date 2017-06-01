@@ -17,4 +17,4 @@ EXPOSE 8181
 
 VOLUME /usr/app
 
-CMD ["su", "-s", "/bin/sh", "horizon", "-c", "hz serve --bind all --connect $RETHINKDB_URI /usr/app"]
+CMD ["su", "-s", "/bin/sh", "horizon", "-c", "zen serve --bind all --connect $RETHINKDB_URI /usr/app"]
