@@ -1,0 +1,9 @@
+[submodule "cli"]
+	path = cli
+	url = git@github.com:nioinnovation/zenith-cli.git
+[submodule "server"]
+	path = server
+	url = git@github.com:nioinnovation/zenith-server.git
+[submodule "client"]
+	path = client
+	url = git@github.com:nioinnovation/zenith-client.git
